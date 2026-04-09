@@ -1,0 +1,31 @@
+object frmSimuladorBalancaoSOF06: TfrmSimuladorBalancaoSOF06
+  Left = 256
+  Height = 386
+  Top = 31
+  Width = 513
+  Caption = 'frmSimuladorBalancaoSOF06'
+  ClientHeight = 386
+  ClientWidth = 513
+  LCLVersion = '4.6.0.0'
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  object btnAtivarServidorBalanca: TBitBtn
+    Left = 0
+    Height = 30
+    Top = 356
+    Width = 513
+    Align = alBottom
+    Caption = 'Ativar Simulador'
+    TabOrder = 0
+    OnClick = btnAtivarServidorBalancaClick
+  end
+  object ListBox1: TListBox
+    Left = 0
+    Height = 356
+    Top = 0
+    Width = 513
+    Align = alClient
+    ItemHeight = 0
+    TabOrder = 1
+  end
+end
